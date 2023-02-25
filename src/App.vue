@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import MyButton from "./components/MyButton.vue";
 import { useTheme } from "vuetify";
 
 const theme = useTheme();
@@ -35,9 +36,14 @@ const switchTheme = () => {
             <p>Run <code>npm run storybook</code> to start Storybook</p>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="primary mx-auto" variant="flat" @click="switchTheme">
+            <MyButton
+              color="primary"
+              class="mx-auto"
+              variant="flat"
+              @click="switchTheme"
+            >
               Switch theme
-            </v-btn>
+            </MyButton>
           </v-card-actions>
         </v-card>
       </v-container>

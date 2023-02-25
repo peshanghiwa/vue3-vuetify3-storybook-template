@@ -36,7 +36,7 @@ export default createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: "light",
+    defaultTheme: "dark",
     themes: {
       light: lightTheme,
       dark: darkTheme,
