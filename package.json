@@ -10,7 +10,9 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "@mdi/font": "^7.1.96",
+    "vue": "^3.2.47",
+    "vuetify": "^3.1.6"
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
