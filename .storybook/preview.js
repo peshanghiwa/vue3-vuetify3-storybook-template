@@ -9,10 +9,6 @@ export const parameters = {
   controls: {
     expanded: true,
     sort: "requiredFirst",
-    // matchers: {
-    //   color: /(background|color)$/i,
-    //   date: /Date$/,
-    // },
   },
   docs: {
     inlineStories: false,
